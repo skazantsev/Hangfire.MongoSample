@@ -1,1 +1,2 @@
-# Hangfire.MongoSample
+# Sample of using Hangfire with Mongo persistance
+

@@ -7,8 +7,9 @@ cd docker
 docker-compose up -d
 ```
 
-2. Run app instances
+2. Run multiple app instances
 ``` powershell
+cd src
 start powershell -ArgumentList "dotnet run --urls=http://localhost:5000"
 start powershell -ArgumentList "dotnet run --urls=http://localhost:5001"
 start powershell -ArgumentList "dotnet run --urls=http://localhost:5002"
